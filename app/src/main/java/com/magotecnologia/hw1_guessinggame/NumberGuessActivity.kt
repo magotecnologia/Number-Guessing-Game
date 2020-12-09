@@ -9,7 +9,7 @@ class NumberGuessActivity : AppCompatActivity() {
 
     lateinit var binding:ActivityNumberGuessBinding
     var randomNumber=0
-    var tries=0
+    var tries=1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
